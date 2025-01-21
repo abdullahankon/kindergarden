@@ -4,14 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kindergarden School</title>
+    <link rel="stylesheet" href="Styles/home.css">
+    <script src="https://kit.fontawesome.com/8a60ea5289.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            
+        <nav class="display-flex navbar">
+            <div class="left-nav display-flex">
+                <img src="assets/logo.png" alt="Kindergarden" class="logo">
+                <h1 class="logo-title">Kindergarden</h1>
+            </div>
+            <ul class="display-flex">
+                <li class="menu-items" style="color: #FEA301;">Home</li>
+                <li class="menu-items" style="color: #01ACFD;">About</li>
+                <li class="menu-items" style="color: #05D4DF;">Facilities</li>
+                <li class="menu-items" style="color: #5D58EF;">Admission</li>
+            </ul>
+            <button class="contact-btn">Contact</button>
+            <div class="btn-mobile"><i class="fa-solid fa-bars"></i></div>
         </nav>
+        <div class="banner display-flex">
+            <div class="banner-content">
+                <h1 class="banner-title"><span style="color: #FEA301;">Empowering</span> <br>
+                    students from small <br> age <span style="color: #05D4DF;">towards vision</span>
+                </h1>
+                <p class="banner-desc">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+                <button class="enroll-btn">Enroll Now</button>
+            </div>
+            <img src="assets/hero-kids.png" alt="hero-kids" class="banner-image">
+        </div>
     </header>
     <main>
+        <section class="standard">
+            <h1 class="section-title">Standard Curriculam</h1>
+            <div class="card-container">
+                <div class="cards kinder">
+                    <img src="assets/kinder.png" alt="kinder">
+                    <h3 class="card-title">Kinder (3-6) Years</h3>
+                    <p class="card-desc">Ignite your child's imagination at our vibrant Kindergarten! We offer a nurturing environment where learning is an adventure. Through playful exploration, our experienced educators guide children in developing essential skills in language, math, science, and social-emotional learning. Come discover a world of wonder and watch your child blossom!</p>
+                    <p class="read-btn blue">Read More</p>
+                </div>
+                <div class="cards elementary">
+                    <img src="assets/elementary.png" alt="Elementary School">
+                    <h3 class="card-title">Elementary School</h3>
+                    <p class="card-desc">Ignite a lifelong love of learning at our dynamic elementary school! We provide a challenging and supportive environment where curious minds thrive. Our experienced educators inspire students through engaging lessons, hands-on activities, and a focus on creativity and critical thinking.</p>
+                    <p class="read-btn orange">Read More</p>
+                </div>
+                <div class="cards middle">
+                    <img src="assets/middle.png" alt="middle school">
+                    <h3 class="card-title">Middle (10-16) Years</h3>
+                    <p class="card-desc">Ignite a passion for learning at our dynamic Middle School! We provide a challenging and supportive environment where young adolescents explore their interests, develop critical thinking skills, and build confidence. Our experienced educators foster a love of learning through engaging coursework, innovative projects, and a wide range of extracurricular activities, preparing students for high school and beyond.</p>
+                    <p class="read-btn purple">Read More</p>
+                </div>
+            </div>
+            <div class="arrow-icon-container display-flex">
+                <div class="arrow-icon"><i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="arrow-icon"><i class="fa-solid fa-angle-right"></i></div>
+            </div>
+        </section>
 
     </main>
     <footer>
